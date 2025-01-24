@@ -99,27 +99,27 @@ header {
     flex: 1 1 17rem;
 }
 
-.home-img{
+.home-img {
     flex: 1 1 17rem;
 }
 
-.home-img img{
+.home-img img {
 
     animation: animate 3s linear infinite;
-    
+
 }
 
 @keyframes animate {
     0% {
-        transform: translate(-11px,0);
+        transform: translate(-11px, 0);
     }
 
     50% {
-        transform: translate(-0px,-11px);
+        transform: translate(-0px, -11px);
     }
 
     100% {
-        transform: translate(-11px,0);
+        transform: translate(-11px, 0);
     }
 }
 
@@ -127,28 +127,28 @@ header {
 .home-text span {
 
     font-size: 1rem;
-    text-transform:    uppercase;
+    text-transform: uppercase;
     font-weight: 600;
     color: var(--main-color);
 
 }
 
-.home-text h1{
+.home-text h1 {
 
-    font-size:3.2rem;
+    font-size: 3.2rem;
     color: var(--main-color);
     font-weight: bolder;
 }
 
-.home-text h3{
-    font-size:1.8rem;
+.home-text h3 {
+    font-size: 1.8rem;
     font-weight: 600;
     color: var(--second-color);
-    text-transform: capitalize ;
+    text-transform: capitalize;
     margin: 0.5rem 0 1.4rem;
 }
 
-.btn{
+.btn {
     padding: 7px 16px;
     border: 2px solid var(--second-color);
     border-radius: 40px;
@@ -157,14 +157,14 @@ header {
 
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--second-color);
     color: #fff;
 }
 
 /* this is for shop  */
 
-.heading{
+.heading {
     text-align: center;
     margin-top: 5rem;
 }
@@ -182,7 +182,7 @@ header {
 }
 
 
-.shop-container{
+.shop-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -190,7 +190,7 @@ header {
 
 }
 
-.shop-container .box{
+.shop-container .box {
     flex: 1 1 10rem;
     background: var(--main-color);
     padding: 20px;
@@ -202,7 +202,7 @@ header {
     border-radius: 0.5rem;
 }
 
-.shop-container .box .box-img{
+.shop-container .box .box-img {
     width: 150px;
     height: 150px;
     margin-top: -100px;
@@ -217,16 +217,16 @@ header {
 
 }
 
-.stars{
+.stars {
     margin: 1rem 0 0.1rem;
 }
 
-.shop-container .box .stars .bx{
+.shop-container .box .stars .bx {
     color: #ebdbc8;
 
 }
 
-.shop-container .box h2{
+.shop-container .box h2 {
 
     color: #ebdbc8;
     font-size: 1.2rem;
@@ -241,16 +241,147 @@ header {
 
 }
 
-.box .btn{
+.box .btn {
 
     border: 2px solid #ebdbc8;
     color: #ebdbc8;
 
 }
 
-.box .btn:hover{
+.box .btn:hover {
     background: #ebdbc8;
     color: var(--main-color);
 }
 
-/* code wil resume at 20:50 */
+/* rutik's code  end here */
+
+
+                /* Maithili's code */
+
+/* google fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Poppins:ital,wght@0,200;0,400;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top:2rem ;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins";
+} */
+
+.delivery {
+    background-color: antiquewhite;
+}
+
+.heading {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.delivery-img{
+    flex: 1 1 21rem;
+}
+
+
+.delivery-text{
+    flex: 1 1 21rem;
+}
+
+.delivery-text h2 {
+    font-size: 1.2rem;
+    color: var(--second-color);
+    margin: 0 auto;
+}
+.delivery-text p {
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
+
+/*    App    */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.app-img {
+    flex: 1 1 21rem;
+
+} 
+
+.app-text{
+    flex: 1 1 21rem;
+}
+
+.app-text h2 {
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+
+.app-text p {
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
+
+
+/*     about       */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebdbc8;
+    gap: 1.5rem;
+}
+
+.about-img {
+    flex: 1 1 21rem;
+    /* padding-left: 20%;
+    margin-top: 50px; */
+}
+
+.about-text {
+    flex: 1 1 19px;
+    /* padding: 10px */
+}
+
+.about-text h2 {
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+
+.about-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
+a{
+    font-size: small;
+    flex: 1 1 2rem;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 10px;
+    color: darkgreen;
+}
+
+
+/* aboutend */
+
+@media screen and (max-width:425px) {
+
+    header .navbar {
+        display: none;
+    }
+}
